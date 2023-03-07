@@ -14,6 +14,7 @@ Also, this covers elementary introduction to `Python` and its `syntax`. So,this 
 ---
 ### `Appendix` 
 `appendix` a - base bytcode:		
+> **Note**	 
 > The [function](./102-magic_calculation.py) `def magic_calculation(a, b, c)` does exactly the same as the following Python bytecode:
 ```bash
   3           0 LOAD_FAST                0 (a)
@@ -42,7 +43,7 @@ Also, this covers elementary introduction to `Python` and its `syntax`. So,this 
              47 RETURN_VALUE
 ```
 
-`appendix` - exact `bytecode`:
+`appendix` b - exact `bytecode`:
 ```bash
 root@HP:/alx-SE/alx-higher_level_programming/0x01-python-if_else_loops_functions# python3
 Python 3.8.10 (default, Nov 14 2022, 12:59:47)
