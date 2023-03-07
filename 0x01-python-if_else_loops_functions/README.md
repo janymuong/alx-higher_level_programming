@@ -9,4 +9,4 @@ Control flow and operations are done on an iterable, that is, an object suitable
 ### sample concepts covered:
 > `if/else`, `loops`, `statement grouping`, `functions`
 
-Also, this covers elementary introduction to `Python` and its `syntax`. So, there is a few **Python** files for this as well as well as build up from the preceding directory [0x00-python-hello_world](../0x00-python-hello_world).
+Also, this covers elementary introduction to `Python` and its `syntax`. So,this is build up from the preceding directory [0x00-python-hello_world](../0x00-python-hello_world).
