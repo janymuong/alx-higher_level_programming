@@ -6,7 +6,7 @@ def islower(c):
 
     Returns True if c is lowercase, else False.
     '''
-    
+
     if ord(c) >= 97 and ord(c) < 123:
         return True
     else:
