@@ -14,7 +14,7 @@ Also, this covers elementary introduction to `Python` and its `syntax`. So,this 
 ---
 ### `Appendix` 
 `appendix` a - base bytcode:		
-The [function](./102-magic_calculation.py) `def magic_calculation(a, b, c)` does exactly the same as the following Python bytecode:
+> The [function](./102-magic_calculation.py) `def magic_calculation(a, b, c)` does exactly the same as the following Python bytecode:
 ```bash
   3           0 LOAD_FAST                0 (a)
               3 LOAD_FAST                1 (b)
