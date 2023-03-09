@@ -1,9 +1,9 @@
-## `python`` - import & modules
+## `python` - import & modules
 ---
 
 > Notation: `import module_name`, `from module import submodule`, `import item.subitem.subsubitem` and a few others.
 
-This is a directory for learning **Python imports** which basically allows you to use **functions**, **attributes**, and **variables**.
+This is a directory for **Python imports** which basically allows you to use **functions**, **attributes**, and **variables** in subsequent code.
 Modules could be files created for modularized coding - separation of concern, or modules could be from the standard library(packages).
 
 A module is a file containing Python definitions and statements. 
