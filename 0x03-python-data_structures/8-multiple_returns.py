@@ -2,7 +2,7 @@
 def multiple_returns(sentence):
     '''
     Returns a tuple with the length of a string
-    and its first character.
+    and its first character
     '''
 
     len_str = len(sentence)
