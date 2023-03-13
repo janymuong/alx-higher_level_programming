@@ -10,7 +10,7 @@ A module is a file containing Python definitions and statements.
 The file name is the module name with the suffix .py appended. Within a module, the module’s name (as a string) is available as the value of the global variable `__name__` which could be anything from Python `namespaces`.
 Imports are normally included as top-level code.
 
-Arbitrary example from the Python interpreter:
+Arbitrary example, in a Python interpreter session:
 ```bash
 >>> from urllib.request import urlopen
 >>> with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:
