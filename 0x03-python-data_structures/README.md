@@ -1,5 +1,5 @@
 ## `python`: Data Structures - Lists, Tuples
----
+
 
 Covers `sequence data types` - `lists`, and `tuples`.
 
@@ -13,15 +13,16 @@ Also focuses (slightly or not slightly) on zero based indexing, slicing and gene
 ---
 ### CPython 
 
-> compile and create a shared library:
+Compile and create a shared library:
 ```bash
 $ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
 
 $ ls
-$ 100-print_python_list_info.c  100-test_lists.py  libPyList.so
+100-print_python_list_info.c  100-test_lists.py  libPyList.so
+$
 ```
 
-> Test using a script:
+Test using a script:
 ```bash
 $ cat 100-test_lists.py
 import ctypes
@@ -45,6 +46,7 @@ l.append(4)
 lib.print_python_list_info(l)
 l.pop()
 lib.print_python_list_info(l)
+$
 ```
 
 ```bash
