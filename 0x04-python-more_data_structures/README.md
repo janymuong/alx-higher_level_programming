@@ -12,4 +12,4 @@ A Python `dictionary` is basically a set of key: value pairs, with the requireme
 The main operations on a dictionary are storing a value with some key and extracting the value given the key. Other operations are also possible eg deletion, sorting etc.
 
 
-> Also covers: `lambda functions` - a way to create small, throw-away anonymous functions, `map()`, `functools.reduce()`, `filter()`.
+> also covers: `lambda functions` - a way to create small, throw-away anonymous functions, `map()`, `functools.reduce()`, `filter()`.
