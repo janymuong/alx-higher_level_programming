@@ -1,7 +1,7 @@
 ## `Python` - More Data Structures: Set, Dictionary
 
 Builds on Python Data Structures.
-> **Note**: Similar directory - [Python - Data Structures: lists, tuples](./0x03-python-data_structures)
+> **Note**: Similar directory - [Python - Data Structures: lists, tuples](../0x03-python-data_structures)
 
 A `set` is an unordered collection with no duplicate elements.   
 Basic use cases: include membership testing and eliminating duplicate entries.   
