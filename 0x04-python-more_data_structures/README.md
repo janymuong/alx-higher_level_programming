@@ -7,8 +7,8 @@ A `set` is an unordered collection with no duplicate elements.
 Sample basic use cases: membership testing, eliminating duplicate entries.   
 Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 
-`Dictionaries` are indexed by keys, which can be any immutable type; strings and numbers,  `tuples` of **type** strings, numbers, or tuples.
-A Python **dictionary** is basically a set of key: value pairs, with the requirement that the keys are unique (within one dictionary).    
+A Python `dictionary` is basically a set of key: value pairs, with the requirement that the keys are unique (within one dictionary).   
+**Dictionaries** are indexed by keys, which can be any immutable type; strings and numbers,  `tuples` of **type** strings, numbers, or tuples.
 The main operations on a dictionary are storing a value with some key and extracting the value given the key. Other operations are also possible eg deletion, sorting etc.
 
 
