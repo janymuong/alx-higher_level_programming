@@ -4,7 +4,7 @@ def roman_to_int(roman_string):
     converts a Roman numeral to an integer
     for 1 to 3999
     '''
-    roman_values = {
+    roman_numbers = {
         "I": 1,
         "V": 5,
         "X": 10,
@@ -18,14 +18,14 @@ def roman_to_int(roman_string):
         prev_value = 0
 
         for i in range(len(roman_string)-1, -1, -1):
-            current_value = roman_values[roman_string[i]]
+            int_val = roman_numbers[roman_string[i]]
 
-            if current_value >= prev_value:
-                result += current_value
+            if int_val >= prev_value:
+                result += int_val
             else:
-                result -= current_value
+                result -= int_val
 
-            prev_value = current_value
+            prev_value = int_val
 
         return result
     else:
