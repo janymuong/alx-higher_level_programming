@@ -2,7 +2,7 @@
 '''an empty class that does nothing'''
 
 
-def Square():
+class Square():
     '''empty class that defines a square'''
 
     pass
