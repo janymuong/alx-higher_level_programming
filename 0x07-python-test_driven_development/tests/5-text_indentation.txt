@@ -16,6 +16,14 @@ TypeError: text must be a string
 Traceback (most recent call last):
 ...
 TypeError: text must be a string
+>>> text_indentation('Holberton. School? How are you: John')
+Holberton.
+<BLANKLINE>
+School?
+<BLANKLINE>
+How are you:
+<BLANKLINE>
+John
 >>> text_indentation('Hello.world.How.are.you?:Fine! Me too. How is life? Good!') # doctest: +NORMALIZE_WHITESPACE
 Hello.
 <BLANKLINE>
@@ -34,3 +42,5 @@ Fine! Me too.
 How is life?
 <BLANKLINE>
 Good!
+>>> text_indentation("          ")
+<BLANKLINE>
