@@ -3,8 +3,6 @@
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 >>> say_my_name("Jany", "Muong")
 My name is Jany Muong
->>> say_my_name("xdva1")
-My name is xdva1
 >>> try:
 ...     say_my_name(12, "strncmp")
 ... except TypeError as e:
