@@ -1,0 +1,65 @@
+# file 0-add_integer.txt
+# add integers, floating-point numbers(cast to int), NaN, infinity etc
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(2, 7)
+9
+>>> add_integer(1.0, 4.4)
+5
+>>> add_integer(7)
+105
+>>> add_integer(-1, -2)
+-3
+>>> add_integer(0.5, 10)
+10
+>>> add_integer()
+Traceback (most recent call last):
+...
+TypeError: add_integer() missing 1 required positional argument: 'a'
+>>> add_integer(None)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer(7, None)
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+>>> add_integer('c', 5)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer(7, 'c')
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+>>> add_integer(float("NaN"), 7)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+>>> add_integer(2, float("NaN"))
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+>>> add_integer(float("inf"), 7)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+>>> add_integer(7, float("-inf"))
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+>>> add_integer(7, float("inf"))
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+>>> add_integer(None, 7)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer(None, None)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+>>> add_integer("hello", "world")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
