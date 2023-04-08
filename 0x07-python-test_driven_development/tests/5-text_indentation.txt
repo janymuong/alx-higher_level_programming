@@ -1,22 +1,8 @@
 # Doctest
 >>> text_indentation = __import__('5-text_indentation').text_indentation
->>> text_indentation()
-Traceback (most recent call last):
-...
-TypeError: text_indentation() missing 1 required positional argument: 'text'
->>> text_indentation(73.05)
-Traceback (most recent call last):
-...
-TypeError: text must be a string
->>> text_indentation(73)
-Traceback (most recent call last):
-...
-TypeError: text must be a string
->>> text_indentation(None)					      
-Traceback (most recent call last):
-...
-TypeError: text must be a string
->>> text_indentation("Holberton. School? How are you: John") # doctest: +NORMALIZE_WHITESPACE
+
+# Test with valid input string
+>>> text_indentation("Holberton. School? How are you: John")
 Holberton.
 <BLANKLINE>
 School?
@@ -24,7 +10,9 @@ School?
 How are you:
 <BLANKLINE>
 John
->>> text_indentation('Hello.world.How.are.you?:Fine! Me too. How is life? Good!') # doctest: +NORMALIZE_WHITESPACE
+
+# Test with input string containing multiple delimiters
+>>> text_indentation('Hello.world.How.are.you?:Fine! Me too. How is life? Good!')
 Hello.
 <BLANKLINE>
 world.
@@ -42,5 +30,52 @@ Fine! Me too.
 How is life?
 <BLANKLINE>
 Good!
+
+# Test with input string containing only spaces
 >>> text_indentation("          ")
+<BLANKLINE>
+
+# Test with empty input string
+>>> text_indentation("")
+
+# Test with integer input
+>>> text_indentation(73)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+# Test with float input
+>>> text_indentation(73.05)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+# Test with None input
+>>> text_indentation(None)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+# Test with input string containing only one word
+>>> text_indentation("Hello")
+Hello
+
+# Test with input string containing only one delimiter
+>>> text_indentation(":")
+:
+<BLANKLINE>
+
+# Test with input string containing only delimiters
+>>> text_indentation("...??:")
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+?
+<BLANKLINE>
+:
 <BLANKLINE>
