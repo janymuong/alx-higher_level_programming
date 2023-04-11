@@ -2,7 +2,7 @@
 
 > `Inheritance` is an OOP mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class. It is the capability of one class to derive or inherit the properties from another class.
 
-Allows for code reuse.	 	  
+> allows for code reuse.	 	  
 
 The syntax for a derived class definition looks like this - demo inheritance.
 
@@ -10,7 +10,7 @@ The syntax for a derived class definition looks like this - demo inheritance.
 $ cat file.py
 #!/usr/bin/python3
 class Base():
-    """ My base class """
+    ''' My base class '''
 
     __nb_instances = 0
 
@@ -19,7 +19,7 @@ class Base():
         self.id = Base.__nb_instances
 
 class Anime(Base):
-    """ My User class """
+    ''' My Anime class '''
 
     def __init__(self):
         super().__init__()
