@@ -2,7 +2,8 @@
 
 > `Inheritance` is an OOP mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class. It is the capability of one class to derive or inherit the properties from another class.
 
-Allows for code reuse.
+Allows for code reuse.	 	  
+
 The syntax for a derived class definition looks like this - demo inheritance.
 
 ```bash
