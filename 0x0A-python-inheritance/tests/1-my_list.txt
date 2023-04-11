@@ -27,3 +27,9 @@
 ['c', 'h', 'a', 'r', 'a', 'c', 't', 'e', 'r', 's']
 >>> my_list.print_sorted()
 ['a', 'a', 'c', 'c', 'e', 'h', 'r', 'r', 's', 't']
+>>> my_list.clear()
+>>> my_list.append(3)
+>>> my_list.append(-3)
+>>> my_list.append(7)
+>>> my_list.print_sorted()
+[-3, 3, 7]
