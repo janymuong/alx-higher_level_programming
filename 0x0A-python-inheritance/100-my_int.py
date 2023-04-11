@@ -10,10 +10,10 @@ class MyInt(int):
     but with inverted == and != operators.
     '''
 
-    def __invert_eq__(self, other):
+    def __eq__(self, other):
         '''Inverted == operator'''
         return int(self) != int(other)
 
-    def __not_eq__(self, other):
+    def __ne__(self, other):
         '''Inverted != op'''
         return int(self) == int(other)
