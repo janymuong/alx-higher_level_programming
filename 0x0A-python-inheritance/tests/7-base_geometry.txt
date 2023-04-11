@@ -65,3 +65,6 @@ Traceback (most recent call last):
 ...
 TypeError: aot must be an integer
 >>> bg.integer_validator("aot", True)
+Traceback (most recent call last):
+...
+TypeError: aot must be an integer
