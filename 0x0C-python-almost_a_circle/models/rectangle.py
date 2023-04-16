@@ -84,3 +84,12 @@ class Rectangle(Base):
         '''public method to represent the rectangle in terms of #'''
         for i in range(self.height):
             print("#" * self.width)
+
+    def __str__(self):
+        '''overriding __str__ method'''
+        return '[Rectangle] ({}) {}/{} - {}/{}'.format(self.id,
+                                                       self.x,
+                                                       self.y,
+                                                       self.width,
+                                                       self.height
+                                                       )
