@@ -6,8 +6,8 @@ Review of:
 ```bash
 - imports
 - exceptions
-- class
-- private attribute
+- classes - Python object orientation
+- private attributes
 - getter/setter, and decorators
 - class methods
 - static methods
@@ -24,7 +24,7 @@ Review of:
 ├── README.md - project documentation.
 ├── models/ - the main driver of the project.
 │   ├── base.py - Includes base (class) models ; for subclassing/inheritance.
-│   ├── square.py
+│   ├── square.py - module for a square object
 │   ├── rectangle.py - object model for a rectangle
 │   ├── __init__.py - pass
 ├── tests/test_models/ - directory for unit testing, test cases/test suites etc.
