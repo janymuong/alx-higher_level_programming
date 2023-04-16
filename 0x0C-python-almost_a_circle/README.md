@@ -15,8 +15,8 @@ Review of:
 - unittest - # unit testing
 - read/write file - file I/O
 - `*args` and `**kwargs` - for positional, arbitrary(and keyword) arguments
-- serialization/deserialization (for contextm, formats: JSON, CSV, XML, YAML, Protocol buffers, MessagePack) - 
-# focuses on JSON (de)serialization.
+- serialization/deserialization (for context, formats: JSON, CSV, XML, YAML, Protocol buffers, MessagePack)
+  				# focuses on JSON (de)serialization.
 ```
 
 ### File Hierarchy:
