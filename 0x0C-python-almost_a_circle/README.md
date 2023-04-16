@@ -4,7 +4,7 @@
 
 Review of:
 ```bash
-- import
+- imports
 - exceptions
 - class
 - private attribute
