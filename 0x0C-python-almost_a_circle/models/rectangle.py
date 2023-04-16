@@ -82,8 +82,10 @@ class Rectangle(Base):
 
     def display(self):
         '''public method to represent the rectangle in terms of #'''
+        for i in range(self.y):
+            print()
         for i in range(self.height):
-            print("#" * self.width)
+            print(' ' * self.x + '#' * self.width)
 
     def __str__(self):
         '''overriding __str__ method'''
