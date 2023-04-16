@@ -26,7 +26,7 @@ Review of:
 │   ├── base.py - Includes base (class) models ; for subclassing/inheritance.
 │   ├── square.py
 │   ├── rectangle.py - object model for a rectangle
-│   ├── _init__.py - pass
+│   ├── __init__.py - pass
 ├── tests/test_models/ - directory for unit testing, test cases/test suites etc.
 └── * miscellaneous
 ```
