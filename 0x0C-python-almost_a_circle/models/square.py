@@ -41,16 +41,14 @@ class Square(Rectangle):
         *args, **kwargs for arbitrary positional arguments, keyworded args
         public method that assigns an argument to each attribute
 
-        Args:
+        args:
             *args: a list of arguments
             **kwargs: a dictionary of keyword arguments
         '''
-
         if args:
             attributes = ['id', 'size', 'x', 'y']
             for i, arg in enumerate(args):
                 setattr(self, attributes[i], arg)
-
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
