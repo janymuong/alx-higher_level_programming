@@ -5,7 +5,7 @@
 import json
 
 
-class Base:
+class Base():
     '''
     Base class: represents the base of all other classes
 
@@ -31,3 +31,20 @@ class Base:
             return '[]'
         else:
             return json.dumps(list_dictionaries)
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        '''class method
+        writes JSON string representation of instances to a file
+        instances(subclassing Base)
+        '''
+        filename = cls.__name__ + '.json'
+        with open(filename, mode='w', encoding='utf-8') as f:
+            if list_objs is None:
+                f.write('[]')
+            else:
+                obj_list = []
+                for obj in list_objs:
+                    obj_list.append(obj.to_dictionary())
+                json_repr = cls.to_json_string(obj_list)
+                f.write(json_repr)
