@@ -48,3 +48,13 @@ class Base():
                     obj_list.append(obj.to_dictionary())
                 json_repr = cls.to_json_string(obj_list)
                 f.write(json_repr)
+
+    @staticmethod
+    def from_json_string(json_string):
+        '''static method - for deserialization
+        returns the list of the JSON string representation from
+        '''
+        if json_string is None or json_string == '':
+            return []
+        else:
+            return json.loads(json_string)
