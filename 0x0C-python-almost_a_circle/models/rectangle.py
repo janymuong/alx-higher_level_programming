@@ -93,8 +93,7 @@ class Rectangle(Base):
                                                        self.x,
                                                        self.y,
                                                        self.width,
-                                                       self.height
-                                                       )
+                                                       self.height)
 
     def update(self, *args, **kwargs):
         '''*args, **kwargs for arbitrary positional arguments, keyworded args
@@ -107,3 +106,13 @@ class Rectangle(Base):
         else:
             for arg, value in kwargs.items():
                 setattr(self, arg, value)
+
+    def to_dictionary(self):
+        '''
+        public method that returns the dictionary representation of a Rectangle
+        '''
+        return {'id': self.id,
+                'width': self.__width,
+                'height': self.__height,
+                'x': self.__x,
+                'y': self.__y}
