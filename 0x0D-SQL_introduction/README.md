@@ -1,8 +1,8 @@
 # `SQL` - Introduction
 > ### SQL Syntax:
 >> ```bash
-SELECT * FROM aot WHERE id=1 AND character='Mikasa Ackerman';
-```
+>> SELECT * FROM aot WHERE id=1 AND character='Mikasa Ackerman';
+>> ```
 
 `SQL` (short for **Structured Query Language**) is a programming language used for managing and manipulating relational databases.  
 It provides a standardized way to interact with databases, allowing you to store, retrieve, update, and delete data.
