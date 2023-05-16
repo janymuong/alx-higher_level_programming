@@ -11,13 +11,12 @@ In SQL, data is stored in tables, which represent entities or concepts. Tables c
 SQL is broadly classified into:
 - `Data Definition Language` (DDL): DDL statements (e.g., `CREATE`, `ALTER`, `DROP`) are used to define and modify the structure of the database objects, such as tables, indexes, and constraints.
 
-- `Data Manipulation Language` (DML): SQL's DML statements allow you to interact with the data stored in the database. These statements enable you to retrieve, insert, modify, or delete data.  
-> `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- `Data Manipulation Language` (DML): SQL's DML statements allow you to interact with the data stored in the database. These statements enable you to retrieve, insert, modify, or delete data eg `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
 
 ## Queries
 SQL queries are used to retrieve specific data from a database. Queries are constructed using various statements, such as `SELECT`, `INSERT`, `UPDATE`, `DELETE`, and `JOIN`, to perform operations on the data.
 
 ---
-> Note: 
-> Eenv
->> Run on `Ubuntu 20.04`, `MySQL` Server version 8.0.33-0ubuntu0.20.04.2
+> **Note**: 
+> env:
+> Run on `Ubuntu 20.04`, `MySQL` Server version 8.0.33-0ubuntu0.20.04.2
