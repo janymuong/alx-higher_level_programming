@@ -1,10 +1,8 @@
 -- MySQL: lists all shows from hbtn_0d_tvshows_rate by their rating; sort in desc order by title
 
--- use the not hbtn_0d_tvshows_rate database
-USE `hbtn_0d_tvshows`;
-
-SELECT t.title, SUM(r.rating) AS rating
-FROM tv_shows AS t
-JOIN rating AS r ON r.show_id = t.id
-GROUP BY t.title
+-- use the hbtn_0d_tvshows_rate database as cli arg:
+SELECT tv_shows.title, SUM(tv_show_ratings.rate) AS rating
+FROM `tv_shows`
+JOIN `tv_show_ratings` ON tv_shows.id = tv_show_ratings.show_id
+GROUP BY tv_shows.id
 ORDER BY rating DESC;
