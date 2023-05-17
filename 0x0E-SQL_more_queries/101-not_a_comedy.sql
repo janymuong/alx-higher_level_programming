@@ -1,9 +1,12 @@
 -- MySQL: a script that lists all shows without the genre Comedy in the database
 
 -- list shows without the genre Comedy
-SELECT DISTINCT t.`title`
-FROM `tv_shows` AS t
-LEFT JOIN `tv_show_genres` AS s ON s.`show_id` = t.`id`
-LEFT JOIN `tv_genres` AS g ON g.`id` = s.`genre_id`
-WHERE g.`name` != "Comedy" OR g.`name` IS NULL
-ORDER BY t.`title` ASC;
+SELECT tv_shows.title
+FROM `tv_shows`
+WHERE tv_shows.id NOT IN (
+    SELECT tv_show_genres.show_id
+    FROM `tv_show_genres`
+    JOIN `tv_genres` ON tv_show_genres.genre_id = tv_genres.id
+    WHERE tv_genres.name = 'Comedy'
+)
+ORDER BY tv_shows.title;
