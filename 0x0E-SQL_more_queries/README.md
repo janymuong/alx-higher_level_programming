@@ -1,13 +1,13 @@
 ## `SQL` - More queries
 
-> this builds upon the directory: [SQL Introduction](../0x0D-SQL_introduction)  
-> covers: How to `CEATE` a `MySQL user` and Grant Permissions(`Privileges`) to **user**, MySQL `constraints`, SQL `subqueries`, SQL `joins`
+This builds upon the directory: [SQL Introduction](../0x0D-SQL_introduction)  
+Covers: How to `CEATE` a `MySQL user` and Grant Permissions(`Privileges`) to **user**, MySQL `constraints`, SQL `subqueries`, SQL `joins`
 
 ---
 #### Database Dumps
 > **Note:**  
 > as a `root` user; create the destination DB in your MySQL server before dumping  
-> $ echo "CREATE DATABASE db_name;" | mysql
+> `$ echo "CREATE DATABASE db_name;" | mysql`
 
 - `hbtn_0d_tvshows_rate`:  
 ```bash
