@@ -5,8 +5,8 @@ Covers: How to `CEATE` a `MySQL user` and Grant Permissions(`Privileges`) to **u
 
 ---
 #### Database Dumps
-> **Note:**  
-> as a `root` user; create the destination DB in your MySQL server before dumping  
+> **Note**:  
+> as a **root** user; create the destination DB in your MySQL server before dumping  
 > `$ echo "CREATE DATABASE db_name;" | mysql`
 
 - `hbtn_0d_tvshows_rate`:  
