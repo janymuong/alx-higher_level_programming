@@ -5,7 +5,7 @@ Covers: How to `CEATE` a `MySQL user` and Grant Permissions(`Privileges`) to **u
 
 #### Run SQL statements like this:  
 ```bash
-$ cat file_name.sql | mysql -hlocalhost -uroot -p
+$ cat file_name.sql | mysql -hlocalhost -uroot -p db_name
 ```
 as root usr you can leave out: **-h** **-u** **-p**
 
