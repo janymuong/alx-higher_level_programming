@@ -3,6 +3,12 @@
 This builds upon the directory: [SQL Introduction](../0x0D-SQL_introduction)  
 Covers: How to `CEATE` a `MySQL user` and Grant Permissions(`Privileges`) to **user**, MySQL `constraints`, SQL `subqueries`, SQL `joins`
 
+#### Run SQL statements like this:  
+```bash
+$ cat file_name.sql | mysql -hlocalhost -uroot -p
+```
+as root usr you can leave out: **-h** **-u** **-p**
+
 ---
 #### Database Dumps
 > **Note**:  
