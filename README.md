@@ -1,8 +1,9 @@
 # High - Level Languages
 ---
 
-Repository for `high-level` programming languages.
+> repository for `high-level` programming languages.  
+>> mainly covers `Python`, and `JavaScript`
 
-Each directory represents a segment of a `programming language` to work on/learn about incrementally.
-The regular files in directories individually represent a concept(s) or part of a concept in syntax and semantics of the language.      
-> mainly covers `Python`.
+**High-level** programming languages are designed to provide a more abstract and user-friendly approach to software development.
+
+Each directory represents a segment of a `programming language` to work on/learn about incrementally. The regular files in directories individually represent a concept(s) or part of a concept in syntax and semantics of the language.
