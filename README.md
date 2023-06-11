@@ -1,5 +1,4 @@
 # High - Level Languages
----
 
 > Repository for `high-level` programming languages.  
 >> mainly covers `Python`, and `JavaScript`
