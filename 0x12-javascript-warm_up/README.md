@@ -29,5 +29,5 @@ JavaScript is widely used for scripting in various contexts.
 ## Environment
 
 > - **Ubuntu 20.04**
-> - **Node.js v14.21.3**
-> - [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
+> - **Node.js v14.21.3**  
+> [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
