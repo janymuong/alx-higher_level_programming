@@ -1,6 +1,6 @@
 # JavaScript
 ## Warm-up
-JavaScript is a high-level, interpreted programming language primarily used for web development. It enables dynamic and interactive behavior on websites, both on the frontend (client-side) and the backend (server-side) of web applications.
+`JavaScript` is a `high-level`, `interpreted` programming language primarily used for web development. It enables *dynamic* and *interactivity* on websites, both on the frontend (client-side) and the backend (server-side) of web applications.
 
 ## Key Features
 
@@ -20,13 +20,13 @@ JavaScript is a high-level, interpreted programming language primarily used for 
 
 - **Server-Side Development:** With Node.js, JavaScript can be used for server-side development to build scalable and efficient web applications. It allows developers to write JavaScript code that runs on the server, handling requests, accessing databases, and managing business logic.
 
-- **Browser APIs:** JavaScript provides access to various browser APIs, such as the Document Object Model (DOM), which allows manipulation of HTML elements, handling events, and creating dynamic user interfaces.
+- **Browser APIs:** JavaScript provides access to various browser `APIs`, such as the *Document Object Model (DOM)*, which allows manipulation of HTML elements, handling events, and creating dynamic user interfaces.
 
 - **Data Manipulation:** JavaScript offers powerful tools for working with data. It supports objects, arrays, JSON, and provides methods for data transformation, filtering, and mapping.
 
 JavaScript is widely used for scripting in various contexts.
 
-## Environment
+## Environment:
 
 > - **Ubuntu 20.04**
 > - **Node.js v14.21.3**  
