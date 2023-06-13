@@ -21,7 +21,7 @@ Refer to the current context or object and are commonly used to access and manip
 - `super`;  
 Used to call the parent class's constructor and access its methods and properties.
 
-- `extend`;  
+- `extends`;  
 Creates a child class that inherits properties and methods from a parent class, facilitating code reuse and hierarchy.
 
 ### environment:
