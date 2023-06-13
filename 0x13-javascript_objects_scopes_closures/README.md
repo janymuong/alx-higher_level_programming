@@ -1,0 +1,21 @@
+# JavaScript
+## Objects, Scopes and Closures
+
+> Covers: objects, scopes and closures in the context of JavaScript ES6 classes, prototyping, constructors, namespace, keywords: `super`, `this`, `self`, `extends` etc    
+> Builds on [0x12-javascript-warm_up](./0x12-javascript-warm_up)
+This project covers the fundamentals of working with objects in JavaScript, including object creation, accessing properties, and manipulating object data.
+
+Explores object-oriented programming (OOP) in JavaScript: `ES6` encapsulation, inheritance, and polymorphism.
+
+---
+## appendix
+
+### glossary
+- `closures`;
+Mechanism that allows functions to retain access to variables from their outer scope even after the outer function has finished executing.
+
+- `this/self`;
+`this` and `self` refer to the current context or object and are commonly used to access and manipulate object properties and methods.
+
+- `super`;
+`super` is used to call the parent class's constructor and access its methods and properties.
