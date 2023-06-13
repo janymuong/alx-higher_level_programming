@@ -2,7 +2,7 @@
 ## Objects, Scopes and Closures
 
 > Covers: *objects*, *scopes* and *closures* in the context of JavaScript ES6 classes, prototyping, constructors, namespace, keywords: `super`, `this`, `self`, `extends` etc    
-> Builds on [0x12-javascript-warm_up](./0x12-javascript-warm_up)  
+> Builds on [0x12-javascript-warm_up](../0x12-javascript-warm_up)  
 
 This project covers the fundamentals of working with objects in JavaScript, including object creation, accessing properties, and manipulating object data.
 
