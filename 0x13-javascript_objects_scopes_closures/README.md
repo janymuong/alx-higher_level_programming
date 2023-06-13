@@ -24,6 +24,6 @@ Used to call the parent class's constructor and access its methods and propertie
 
 ## Environment:
 
-> - **Ubuntu 20.04**
-> - **Node.js v14.21.3**
+> - **Ubuntu 20.04**  
+> - **Node.js v14.21.3**  
 > [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
