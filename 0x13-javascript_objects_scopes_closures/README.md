@@ -1,5 +1,5 @@
 # JavaScript
-## Objects, Scopes and Closures
+## Objects, Scopes and Closures;
 
 > Covers: *objects*, *scopes* and *closures* in the context of JavaScript ES6 classes, prototyping, constructors, namespace, keywords: `super`, `this`, `self`, `extends` etc    
 > Builds on [0x12-javascript-warm_up](../0x12-javascript-warm_up)  
@@ -21,8 +21,10 @@ Refer to the current context or object and are commonly used to access and manip
 - `super`;  
 Used to call the parent class's constructor and access its methods and properties.
 
+- `extend`;  
+Creates a child class that inherits properties and methods from a parent class, facilitating code reuse and hierarchy.
 
-### Environment:
+### environment:
 
 > - **Ubuntu 20.04**  
 > - **Node.js v14.21.3**  
