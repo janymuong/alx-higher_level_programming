@@ -12,11 +12,11 @@ Explores object-oriented programming (OOP) in JavaScript: `ES6` encapsulation, i
 ## Appendix
 
 ### glossary
-- `closures`;
+- `closures`;  
 Mechanism that allows functions to retain access to variables from their outer scope even after the outer function has finished executing.
 
-- `this/self`;
+- `this/self`;  
 `this` and `self` refer to the current context or object and are commonly used to access and manipulate object properties and methods.
 
-- `super`;
+- `super`;  
 `super` is used to call the parent class's constructor and access its methods and properties.
