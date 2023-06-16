@@ -5,7 +5,7 @@
 `Object-Relational Mapping` - ORM is a programming technique that allows programmers to work with relational databases using object-oriented programming languages. It provides a convenient and intuitive way to interact with the database by abstracting the underlying SQL queries and data access operations.
 
 ## How ORM Works
-ORM maps *`database tables`* to *`object classes*` and *`table columns`* to *`object attributes`*. Thus, it allows manipulation of  database records as objects, making the code easier to maintain, and less context switcing between Python and raw SQL.
+ORM maps *`database tables`* to *`object classes`* and *`table columns`* to *`object attributes`*. Thus, it allows manipulation of  database records as objects, making the code easier to maintain, and less context switcing between Python and raw SQL.
 
 With an ORM, developers define models or classes that represent database tables. These models encapsulate the table structure and define relationships between tables using object-oriented concepts like inheritance and associations (e.g., one-to-one, one-to-many, many-to-many). The ORM then handles the translation between the object-oriented operations and the corresponding SQL queries required to interact with the database.
 
@@ -29,7 +29,7 @@ With an ORM, developers define models or classes that represent database tables.
 
 ## Environment:
 
-**Note**:  
+**Note**  
 > - Ubuntu 20.04  
 > - SQLAlchemy==1.4.41  
 > - MySQL: 8.0.33-0ubuntu0.20.04.2  
