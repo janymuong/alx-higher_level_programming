@@ -22,7 +22,8 @@ def list_states(db_user, password, db_name):
                    "ORDER BY states.id ASC")
     states = cursor.fetchall()
     for state in states:
-        print(state)
+        if state[1][0] == 'N':
+            print(state)
 
     cursor.close()
     db.close()
