@@ -18,7 +18,8 @@ def list_states(db_user, password, db_name):
     cursor = db.cursor()
 
     # retrieve states starting with 'N'
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%'"
+                   "ORDER BY states.id ASC")
     states = cursor.fetchall()
     for state in states:
         print(state)
