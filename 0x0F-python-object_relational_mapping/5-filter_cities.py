@@ -19,21 +19,22 @@ def filter_cities(db_user, password, db_name, state_name):
     cursor = db.cursor()
 
     # retrieve cities of the specified state
-    cursor.execute(
+    query = (
         '''
-        SELECT cities.name
-        FROM cities
-        LEFT JOIN states ON cities.state_id = states.id
+        SELECT cities.name FROM cities
+        INNER JOIN states ON cities.state_id = states.id
         WHERE states.name LIKE BINARY %s
         ORDER BY cities.id ASC
-        ''', (state_name,)
-        )
+        ''')
+    cursor.execute(query, (state_name,))
     cities = cursor.fetchall()
 
     # check if cities exists; print them
     if cities:
         city_names = [city[0] for city in cities]
         print(', '.join(city_names))
+    else:
+        print()
 
     cursor.close()
     db.close()
