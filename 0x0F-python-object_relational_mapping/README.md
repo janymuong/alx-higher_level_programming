@@ -22,15 +22,16 @@ With an ORM, developers define models or classes that represent database tables.
 ## Built with:
 
 - [SQLAlchemy](https://docs.sqlalchemy.org/en/20/): Python Object-relational Mapper.
-- [MySQLdb](MySQLdb - MySQClient): Has features to create connection objects to MySQL database management system(dbms), and execute SQL.
-- [MySQL](MySQL): dbms
+- [MySQLdb](): Has features to create connection objects to MySQL database management system(dbms), and execute SQL.
+- [MySQL](): dbms
 - [Python]()
 
 
 ## Environment:
 
 > **Note**  
->> - Ubuntu 20.04  
->> - SQLAlchemy==1.4.41  
->> - MySQL: 8.0.33-0ubuntu0.20.04.2  
->> - MySQLdb: MySQLdb.version_info(2, 1, 1, 'final', 0)
+
+> - Ubuntu 20.04  
+> - SQLAlchemy==1.4.41  
+> - MySQL: 8.0.33-0ubuntu0.20.04.2  
+> - MySQLdb: MySQLdb.version_info(2, 1, 1, 'final', 0)
