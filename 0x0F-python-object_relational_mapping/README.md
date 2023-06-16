@@ -29,8 +29,8 @@ With an ORM, developers define models or classes that represent database tables.
 
 ## Environment:
 
-**Note**  
-> - Ubuntu 20.04  
-> - SQLAlchemy==1.4.41  
-> - MySQL: 8.0.33-0ubuntu0.20.04.2  
-> - MySQLdb: MySQLdb.version_info(2, 1, 1, 'final', 0)
+> **Note**  
+>> - Ubuntu 20.04  
+>> - SQLAlchemy==1.4.41  
+>> - MySQL: 8.0.33-0ubuntu0.20.04.2  
+>> - MySQLdb: MySQLdb.version_info(2, 1, 1, 'final', 0)
