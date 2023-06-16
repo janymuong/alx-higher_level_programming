@@ -23,7 +23,7 @@ def filter_cities(db_user, password, db_name, state_name):
         '''
         SELECT cities.name
         FROM cities
-        INNER JOIN states ON cities.state_id = states.id
+        LEFT JOIN states ON cities.state_id = states.id
         WHERE states.name LIKE BINARY %s
         ORDER BY cities.id ASC
         ''', (state_name,)
