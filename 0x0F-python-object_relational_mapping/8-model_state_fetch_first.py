@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 '''
 module ORM: SQLAlchmey
-prints the first State object from the database
-hbtn_0e_6_usa table
+prints the first State object from the database hbtn_0e_6_usa
 '''
 
 import sys
@@ -23,7 +22,4 @@ if __name__ == '__main__':
     # select the first State object
     first_state = session.query(State).order_by(State.id).first()
 
-    if first_state is None:
-        print()
-    else:
-        print(f'{first_state.id}: {first_state.name}')
+    print(f'{first_state.id}: {first_state.name}')
