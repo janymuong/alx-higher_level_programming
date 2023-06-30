@@ -2,7 +2,7 @@
 '''module:
 script that takes in a URL, sends a request to the URL
 and displays the value of the X-Request-Id variable
-                found in the header of the response.
+found in the header of the response.
 '''
 import urllib.request
 import sys
@@ -13,4 +13,4 @@ with urllib.request.urlopen(url) as res:
     headers = res.info()
 
 x_request_id = headers['X-Request-Id']
-print(f'{x_request_id}')
+print(x_request_id)
