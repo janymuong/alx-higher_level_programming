@@ -4,14 +4,8 @@
 
 URL="$1"
 
-# send a request to the URL and store the response in a temporary file
-response=$(mktemp)
-curl -sI "$URL" -o "$response"
+# send a request to the URL
+response=$(curl -sI "$URL")
 
 # extract the content length from the response headers
-content_length=$(grep -i 'Content-Length' "$response" | awk '{print $2}')
-
-echo "$content_length"
-
-# cleanup temporary file
-rm "$response"
+echo "$response" | grep -i 'Content-Length' | awk '{print $2}'
