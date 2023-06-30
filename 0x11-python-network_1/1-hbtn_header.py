@@ -9,7 +9,8 @@ import sys
 
 url = sys.argv[1]
 
-with urllib.request.urlopen(url) as res:
+req = urllib.request.Request(url)
+with urllib.request.urlopen(req) as res:
     x_request_id = res.headers.get('X-Request-Id')
 
 print(f'{x_request_id}')
