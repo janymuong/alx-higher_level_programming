@@ -10,7 +10,6 @@ import sys
 url = sys.argv[1]
 
 with urllib.request.urlopen(url) as res:
-    headers = res.info()
+    x_request_id = res.headers.get('X-Request-Id')
 
-x_request_id = headers['X-Request-Id']
-print(x_request_id)
+print(f'{x_request_id}')
