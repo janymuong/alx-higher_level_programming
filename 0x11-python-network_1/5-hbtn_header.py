@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''module:
-sends a request to a URL;
+send a request to a URL;
 displays the value of the variable `X-Request-Id` in the response header
 '''
 
