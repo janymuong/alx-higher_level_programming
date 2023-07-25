@@ -13,9 +13,4 @@ function writeFile (filePath, writeString) {
 const filePath = process.argv[2];
 const writeString = process.argv[3];
 
-if (!filePath || !writeString) {
-  console.error('Usage: ./1-writeme.js <file-path> <writeString>');
-  process.exit(1);
-}
-
 writeFile(filePath, writeString);
