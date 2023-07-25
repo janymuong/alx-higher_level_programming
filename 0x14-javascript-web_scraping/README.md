@@ -7,7 +7,7 @@
 
 
 ## Premise
-```bash
+```
 - Understand why JavaScript programming is powerful for web scraping.
 - Manipulate JSON data efficiently.
 - Utilize the `request` and `fetch` API to interact with web pages and retrieve data.
