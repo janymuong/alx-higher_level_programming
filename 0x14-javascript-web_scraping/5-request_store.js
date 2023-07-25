@@ -4,7 +4,7 @@
 const fs = require('fs');
 const rq = require('request');
 
-function requestAndStore (url, filePath) {
+function scrapeLoremIpsum (url, filePath) {
   rq.get(url, (error, response, body) => {
     if (error) {
       console.error(error);
@@ -21,4 +21,4 @@ function requestAndStore (url, filePath) {
 const url = process.argv[2];
 const filePath = process.argv[3];
 
-requestAndStore(url, filePath);
+scrapeLoremIpsum(url, filePath);
