@@ -116,7 +116,7 @@ request(url, (error, response, body) => {
     // parse the response body as JSON
     const data = JSON.parse(body);
     
-    // Write the JSON to file:
+    // write JSON to file:
     fs.writeFile('data.json', JSON.stringify(data, null, 2), (err) => {
       if (err) throw err;
       console.log('Data has been written to data.json');
