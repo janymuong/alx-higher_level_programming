@@ -1,7 +1,8 @@
 # JavaScript - Web Scraping
 
 ## Background
-> JavaScript
+> JavaScript  
+
 `Web scraping` is the process of extracting data from websites, allowing us to retrieve and manipulate information programmatically. Throughout this project, we will explore how to manipulate JSON data, use the `request` and `fetch` API for making HTTP requests, and read and write files using the `fs` module.
 
 
