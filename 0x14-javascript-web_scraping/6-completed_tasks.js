@@ -2,9 +2,10 @@
 
 // computes the number of tasks completed by user id; parse data:
 // API URL: https://jsonplaceholder.typicode.com/todos
+
 const req = require('request');
 
-function todoComplete (apiUrl) {
+function todosComplete (apiUrl) {
   req(apiUrl, (error, response, body) => {
     if (error) {
       console.error(error);
@@ -29,4 +30,4 @@ function todoComplete (apiUrl) {
 
 const apiUrl = process.argv[2];
 
-todoComplete(apiUrl);
+todosComplete(apiUrl);
