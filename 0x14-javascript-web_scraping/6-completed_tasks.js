@@ -1,36 +1,30 @@
 #!/usr/bin/node
 
-const req = require('request');
+// computes the number of tasks completed by user id; parse data:
+// API URL: https://jsonplaceholder.typicode.com/todos
 
-function todosComplete(apiUrl) {
-  req(apiUrl, (error, response, body) => {
-    if (error) {
-      console.error(error);
-    } else {
-      const tasks = JSON.parse(body);
-      const completedTasks = {};
-
-      tasks.forEach((task) => {
-        if (task.completed) {
-          if (!completedTasks[task.userId]) {
-            completedTasks[task.userId] = 1;
-          } else {
-            completedTasks[task.userId]++;
-          }
-        }
-      });
-
-      let output = '{\n';
-      Object.keys(completedTasks).forEach((key) => {
-        output += `  '${key}': ${completedTasks[key]},\n`;
-      });
-      output += '}';
-
-      console.log(output);
-    }
-  });
-}
+const rq = require('request');
 
 const apiUrl = process.argv[2];
 
-todosComplete(apiUrl);
+rq(apiUrl, function (error, response, body) {
+  if (error) {
+    console.log(error);
+  } else {
+    const todos = JSON.parse(body);
+    const completedTasks = {};
+
+    for (const todo of todos) {
+      if (todo.completed) {
+        const userId = todo.userId;
+        if (!completedTasks[userId]) {
+          completedTasks[userId] = 0;
+        }
+
+        completedTasks[userId]++;
+      }
+    }
+
+    console.log(completedTasks);
+  }
+});
