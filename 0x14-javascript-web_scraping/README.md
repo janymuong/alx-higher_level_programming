@@ -26,7 +26,7 @@
   "name": "Satoru Goju",
   "email": "satoru@jujutsukaisen.anime",
   "address": {
-    "city": "I have an Address in RAM",
+    "city": "I have an address in RAM",
     "zipcode": "1010101"
   },
   "hobbies": ["stuff", "stuff-n", "not-coding"]
