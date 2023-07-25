@@ -33,6 +33,22 @@
 }
 ```
 
+### Running Scripts with NodeJS:
+```bash
+mu-o@HP:~/web_scraping$ cat cisfun
+C is super fun!
+mu-o@HP:~/web_scraping$ ./0-readme.js cisfun
+C is super fun!
+
+mu-o@HP:~/web_scraping$ ./0-readme.js doesntexist
+[Error: ENOENT: no such file or directory, open 'doesntexist'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'doesntexist'
+}
+mu-o@HP:~/web_scraping$
+```
 
 ---
 ### Scraping Data and Parsing it as JSON
