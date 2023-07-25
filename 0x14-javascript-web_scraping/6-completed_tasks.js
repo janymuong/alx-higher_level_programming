@@ -2,7 +2,7 @@
 
 const req = require('request');
 
-function todosComplete (apiUrl) {
+function todosComplete(apiUrl) {
   req(apiUrl, (error, response, body) => {
     if (error) {
       console.error(error);
@@ -20,11 +20,13 @@ function todosComplete (apiUrl) {
         }
       });
 
-      console.log(
-        '{',
-        Object.keys(completedTasks).map((key) => `'${key}': ${completedTasks[key]},`).join('\n  '),
-        '}'
-      );
+      let output = '{\n';
+      Object.keys(completedTasks).forEach((key) => {
+        output += `  '${key}': ${completedTasks[key]},\n`;
+      });
+      output += '}';
+
+      console.log(output);
     }
   });
 }
