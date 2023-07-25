@@ -25,7 +25,7 @@ function todosComplete (apiUrl) {
 
       console.log(
         '{',
-        Object.keys(completedTasks).map((key) => `'${key}': ${completedTasks[key]}`).join('\n  '),
+        Object.keys(completedTasks).map((key) => `'${key}': ${completedTasks[key]},`).join('\n  '),
         '}'
       );
     }
