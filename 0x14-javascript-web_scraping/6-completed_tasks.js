@@ -23,7 +23,11 @@ function todosComplete (apiUrl) {
         }
       });
 
-      console.log(completedTasks);
+      console.log(
+        '{',
+        Object.keys(completedTasks).map((key) => `'${key}': ${completedTasks[key]}`).join('\n  '),
+        '}'
+      );
     }
   });
 }
