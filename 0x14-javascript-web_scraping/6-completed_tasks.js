@@ -15,10 +15,10 @@ function todosComplete (apiUrl) {
 
       tasks.forEach((task) => {
         if (task.completed) {
-          if (completedTasks[task.userId]) {
-            completedTasks[task.userId]++;
-          } else {
+          if (!completedTasks[task.userId]) {
             completedTasks[task.userId] = 1;
+          } else {
+            completedTasks[task.userId]++;
           }
         }
       });
