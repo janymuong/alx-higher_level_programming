@@ -11,7 +11,7 @@ Each directory represents a segment of a `programming language` to work on/learn
 ### `The Zen of Python`:
 
 > **Note**:  
-> $ python3 -c 'import this'  
+> `$ python3 -c 'import this'`  
 > The Zen of Python, by Tim Peters  
 >   
 > Beautiful is better than ugly.  
@@ -34,3 +34,6 @@ Each directory represents a segment of a `programming language` to work on/learn
 > If the implementation is easy to explain, it may be a good idea.  
 > Namespaces are one honking great idea -- let's do more of those!  
 > $  
+
+---
+[MIT License](./LICENSE)
