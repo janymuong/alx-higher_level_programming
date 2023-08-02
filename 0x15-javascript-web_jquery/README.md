@@ -1,6 +1,6 @@
 # JavaScript - Web jQuery
 
-This project aims to explore and understand the concepts of front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in DOM manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
+Explores front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
 
 ## File Info:
 > **Note**:
