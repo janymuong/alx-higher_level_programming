@@ -1,7 +1,7 @@
 # High - Level Languages
 
 > Repository for `high-level` programming languages.  
->> mainly covers `Python`, and `JavaScript`
+> Mainly covers `Python`, and a little `JavaScript`
 
 **High-level** programming languages are designed to provide a more abstract and user-friendly approach to software development. In this context the abstraction allows programmers to focus on the logic and functionality of the code without dealing with the intricacies of the underlying system architecture/hardware resources like *memory management* etc.
 
@@ -10,7 +10,8 @@ Each directory represents a segment of a `programming language` to work on/learn
 ---
 ### `The Zen of Python`:
 
-```bash
+> **Note**:  
+> ```bash
 $ python3 -c 'import this'
 The Zen of Python, by Tim Peters
 
