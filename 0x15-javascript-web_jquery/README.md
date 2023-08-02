@@ -10,4 +10,6 @@ Explores front-end development using `JavaScript` and `jQuery`. The goal is to g
 >> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
 >> Press `Ctrl+Shift+I` /or `fn + f12` (or `Cmd+Option+I` on *macOS*) to open DevTools.  
 > semistandard compliant : `semistandard *.js --global $`  
+
+---
 > [![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
