@@ -2,9 +2,11 @@
 
 Explores front-end development using `JavaScript` and `jQuery`. The goal is to gain proficiency in `DOM` manipulation, event handling, making AJAX requests/calls, and utilizing the power of jQuery to simplify front-end programming.
 
+
 ## File Info:
-> **Note**:
-> - The `index.html` file serves as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality. Ascertain all test HTML files are in the same directory as the JavaScript scripts.  
+> **Note**:  
+> [html/](./html/) - move all files in here to parent directory when viewieng HTML in-browser  
+> - The `index.html` - i.e. a main.html file - serves as the main entry point for the application. Open this file in your browser to interact with the JavaScript functionality. Ascertain all test HTML files are in the same directory as the JavaScript scripts.  
 > - You can find the jQuery library included in the `head` section of the `index.html` file, which enables you to use jQuery methods and selectors in your JavaScript code.  
 > - Chrome DevTools:  
 >> You can inspect and debug your web pages and see real-time changes in the DOM using it:  
