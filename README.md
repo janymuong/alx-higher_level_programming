@@ -10,7 +10,7 @@ Each directory represents a segment of a `programming language` to work on/learn
 ---
 ### `The Zen of Python`:
 
-> **Note**:  
+> **Note**  
 > `$ python3 -c 'import this'`  
 > The Zen of Python, by Tim Peters  
 >   
